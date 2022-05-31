@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Montserrat+Alternates:wght@600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0 2rem;
+    position: relative;
+    right: 50rem;
+}
+.nav-link li a{
+    padding: 15px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius:10px 0px;
+}
+
+button{
+    padding:15px;
+    border: none;
+    border-radius: 10px 0PX;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(10, 8, 8);
+    border-radius:10px 0px;
+}
+
+.image{
+    margin-left: 42%;
+    margin-top: .5rem;
+}
+
+.div-body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+}
+.name{
+    text-align: center;
+    color: rgb(13, 18, 20);
+}
+
+.para{
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(10, 12, 14);
+    padding-top: 1%;
+}
+
+.about{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font: 'Fira Sans', sans-serif;
+    font-weight: 200;
+
+}
+.con{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(2, 0, 0);
+}
+.para-con{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: large;
+}
+
+.footer{
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    margin-left: 40%;
+}
+footer img{
+    background: white;
+}
+.footer a{
+    background: white;
+    padding: 15px;
+}
+
+.about-me{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.skills{
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hobbies{
+    margin-left: 10%;
+}
+.hobbies h2{
+    padding-bottom: 10px;
+    font-family:"Montserrat", sans-serif;
+}
+.hobbies li{
+    margin-left: 3%;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+.lang{
+    margin-left: 10%;
+}
+.lang h2{
+    padding-bottom: 10px;
+}
+.lang p{
+    margin-left: 20px;
+}
+.persona{
+    font-family:"Montserrat", sans-serif;
+    margin-left: 10%;
+    padding: .2rem;
+}
+.me{
+    position: relative;
+    left: 46%;
+    border-top:10px dotted rgb(220, 225, 240);
+    width: 100px;
+    padding: 2rem;
+}
+.new{
+    text-align: center;
+    font-size: 1.9rem;
+}
+.add{
+    margin-left: 10%;
+    padding: 0.5rem;
+}
+.add li{
+    padding-top: 10px;
+}
